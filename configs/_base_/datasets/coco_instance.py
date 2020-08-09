@@ -1,4 +1,4 @@
-_base_ = 'db_coco_detection.py'
+_base_ = 'coco_detection.py'
 img_norm_cfg = dict(
     mean=[244.06, 244.12, 244.099], std=[36.927, 36.963, 36.936], to_rgb=True)
 train_pipeline = [
