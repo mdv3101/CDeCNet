@@ -11,13 +11,29 @@ The code is implemented in PyTorch using <a href="https://github.com/open-mmlab/
 
 ## Setup
 <b>Dependencies</b><br>
+Python = 3.6+ <br>
 PyTorch = 1.4.0<br>
-Torchvision = 0.5.0<br>
+Torchvision =  0.5.0<br>
 Cuda = 10.0<br>
 MMdetection = 2.0.0<br>
 mmcv = 0.5.4<br>
 
-Please follow <a href="https://github.com/mdv3101/CDeCNet/blob/master/docs/install.md">install.md</a> for detailed installation steps.
+1. Clone this repository
+```
+git clone https://github.com/mdv3101/CDeCNet
+```
+2. Install the require dependencies
+```
+pip install torch==1.4.0 torchvision==0.5.0
+```
+```
+cd CDecNet/
+pip install -r requirements/build.txt
+pip install "git+https://github.com/open-mmlab/cocoapi.git#subdirectory=pycocotools"
+pip install -v -e .
+```
+
+Please follow [install.md](docs/install.md) for detailed installation steps.
 
 ## Training
 1. Create a folder 'dataset' in the CDeCNet and put your data into this folder. Your dataset must be in MS-Coco format. The directory structure should be:
@@ -34,7 +50,7 @@ dataset
 3. Set ```load_from= /path/of/pre-trained/model``` in [default_runtime.py](configs/_base_/default_runtime.py)
 4. To train a model on CDeCNet, use the following commnand
 ```
-python3 -u tools/train.py configs/dcn/db_cascade_mask_rcnn_x101_fpn_dconv_c3-c5_1x_coco.py --work-dir dataset/coco/logs/
+python -u tools/train.py configs/dcn/db_cascade_mask_rcnn_x101_fpn_dconv_c3-c5_1x_coco.py --work-dir dataset/coco/logs/
 ```
 <br>
 Note that step 2 and 3 are optional. If you want to train a model from scratch, then you can skip these two steps. (Training a model from scratch will take larger time to converge)
@@ -42,7 +58,7 @@ Note that step 2 and 3 are optional. If you want to train a model from scratch, 
 ## Evaluation
 To evaluate the trained model, run the following command
 ```
-python3 tools/test.py configs/dcn/db_cascade_mask_rcnn_x101_fpn_dconv_c3-c5_1x_coco.py dataset/coco/logs/latest.pth \
+python tools/test.py configs/dcn/db_cascade_mask_rcnn_x101_fpn_dconv_c3-c5_1x_coco.py dataset/coco/logs/latest.pth \
     --format-only --options "jsonfile_prefix=evaluation_result"
 ```
 Details about various training and evaluation methods can be found in [getting_started.md](docs/getting_started.md)
