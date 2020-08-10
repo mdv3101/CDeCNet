@@ -67,15 +67,15 @@ Details about various training and evaluation methods can be found in [getting_s
 ## CDeCNet Results
 1. Comparison between CDeC-Net and state-of-the-art techniques on the existing benchmark datasets.
 
-| Dataset    | Method                     | Precision            | Recall               | F1                   | mAP                |
-|------------|----------------------------|----------------------|----------------------|----------------------|--------------------|
-|ICDAR-2013  | DeCNT <br>CDeC-Net         | 0.996 <br> **1.000** | 0.996 <br> **1.000** | 0.996 <br> **1.000** | <br> **1.000**     |
-|ICADR-2017  | Yolov3<br>CDeC-Net         | **0.968** <br> 0.924 | **0.975**<br> 0.970  | **0.971** <br> 0.947 | <br> **0.912**     |
-|ICADR -2019 | TableRadar<br>CDeC-Net     | **0.940** <br> 0.934 | 0.950 <br> **0.953** | **0.945** <br> 0.944 | <br> **0.922**     |
-|UNLV        | GOD <br> CDeC-Net          | 0.910 <br> **0.925** | 0.946 <br> **0.952** | 0.928 <br> **0.938** | <br> **0.912**     |
-|Marmot      | DeCNT <br> CDeC-Net        | **0.946** <br> 0.930 | 0.849 <br> **0.975** | 0.895 <br> **0.952** | <br> **0.911**     |
-|TableBank   | Li et al. <br> CDeC-Net    | 0.975 <br> **0.979** | 0.987 <br> **0.995** | 0.981 <br> **0.987** | <br> **0.976**     |
-|PubLayNet   | M-RCNN <br> CDeC-Net       | <br> **0.970**       | <br> **0.988**       | <br> **0.978**       |0.960 <br> **0.967**|
+| Dataset    | Method                     | Precision            | Recall               | F1                   | mAP                | Checkpoint |
+|------------|----------------------------|----------------------|----------------------|----------------------|--------------------|------------|
+|ICDAR-2013  | DeCNT <br>CDeC-Net         | 0.996 <br> **1.000** | 0.996 <br> **1.000** | 0.996 <br> **1.000** | <br> **1.000**     | <br> [model](https://drive.google.com/file/d/1bip7l0H3Zd9NNWIRRtM-QdnDborWvftf/view?usp=sharing) |
+|ICADR-2017  | Yolov3<br>CDeC-Net         | **0.968** <br> 0.924 | **0.975**<br> 0.970  | **0.971** <br> 0.947 | <br> **0.912**     | <br> [model](https://drive.google.com/file/d/1bbSSqp4_6YE-QqiOVsGX6_HttL2qGYeB/view?usp=sharing) |
+|ICADR -2019 | TableRadar<br>CDeC-Net     | **0.940** <br> 0.934 | 0.950 <br> **0.953** | **0.945** <br> 0.944 | <br> **0.922**     | <br> [model] |
+|UNLV        | GOD <br> CDeC-Net          | 0.910 <br> **0.925** | 0.946 <br> **0.952** | 0.928 <br> **0.938** | <br> **0.912**     | <br> [model] |
+|Marmot      | DeCNT <br> CDeC-Net        | **0.946** <br> 0.930 | 0.849 <br> **0.975** | 0.895 <br> **0.952** | <br> **0.911**     | <br> [model] |
+|TableBank   | Li et al. <br> CDeC-Net    | 0.975 <br> **0.979** | 0.987 <br> **0.995** | 0.981 <br> **0.987** | <br> **0.976**     | <br> [model] |
+|PubLayNet   | M-RCNN <br> CDeC-Net       | <br> **0.970**       | <br> **0.988**       | <br> **0.978**       |0.960 <br> **0.967**| <br> [model] |
 
 2. Comparison between our single model CDeC-Net‡ and state-of-the-art techniques on existing benchmark datasets.
 
@@ -89,10 +89,11 @@ Details about various training and evaluation methods can be found in [getting_s
 |TableBank   | Li et al. <br> CDeC-Net‡    | **0.975** <br> 0.970 | 0.987 <br> **0.990** | **0.981** <br> 0.980 | <br> **0.965**     |
 |PubLayNet   | M-RCNN <br> CDeC-Net‡       | <br> **0.975**       | <br> **0.993**       | <br> **0.984**       |0.960 <br> **0.978**|
 
-
-## Qulitative Results
-<img src="imgs/qualitative_13_19.png" height="450"/> <br>
-<img src="imgs/qualitative_17_marmot.png" height="450"/> <br>
+Note: Our single model CDeC-Net‡ is trained on IIIT-AR-13K dataset and fine-tuned with training set of respective datasets (if available). The base model trained on IIIT-AR-13K dataset can be downloaded from the [google drive](https://drive.google.com/file/d/1jTl-pJYJOWFvcWrPV6hH99Z7x-xO9r2f/view?usp=sharing)
+ 
+## Qualitative Results: Table Detection by CDeC-Net
+<img src="imgs/qualitative_13_19.png" height="350"/> <br>
+<img src="imgs/qualitative_17_marmot.png" height="350"/> <br>
 
 ## Issue
 Kindly go through the various tutorails and documentation provided in [docs folder](docs). <br>
