@@ -90,6 +90,10 @@ Details about various training and evaluation methods can be found in [getting_s
 |PubLayNet   | M-RCNN <br> CDeC-Net‡       | <br> **0.975**       | <br> **0.993**       | <br> **0.984**       |0.960 <br> **0.978**|
 
 
+## Qulitative Results
+<img src="imgs/qualitative_13_19.png" height="450"/> <br>
+<img src="imgs/qualitative_17_marmot.png" height="450"/> <br>
+
 ## Issue
 Kindly go through the various tutorails and documentation provided in [docs folder](docs). <br>
 Most of the common issues were already solved in MMdetection official repo's [Issue Page](https://github.com/open-mmlab/mmdetection/issues). We strongly suggest to go through it before raising a new issue.
