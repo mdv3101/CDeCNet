@@ -99,3 +99,6 @@ Note: Our single model CDeC-Net‡ is trained on IIIT-AR-13K dataset and fine-tu
 Kindly go through the various tutorails and documentation provided in [docs folder](docs). <br>
 Most of the common issues were already solved in MMdetection official repo's [Issue Page](https://github.com/open-mmlab/mmdetection/issues). We strongly suggest to go through it before raising a new issue.
 
+## Contact
+CDeCNet was developed by [Madhav Agarwal](https://www.github.com/mdv3101), Dr. Ajoy Mondal and [Dr. C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/). <br>
+For any query, feel free to drop a mail to [Madhav Agarwal](https://www.github.com/mdv3101) by explicitly mentioning 'CDeCNet' in the subject.
