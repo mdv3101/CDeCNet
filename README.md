@@ -4,6 +4,8 @@
 
 CDeC-Net: Composite Deformable CascadeNetwork for Table Detection in Document Images
 
+[arXiv paper link](https://arxiv.org/abs/2008.10831)
+
 ## Introduction
 CDeC-Net is an end-to-end network for detecting tables in document images. The network consists of a multistage extension of Mask R-CNN with a dual backbone having deformable convolution for detecting tables varying in scale with high detection accuracy at higher IoU threshold. CDeC-Net achieves state-of-the-art results on various publicly available benchmark datasets.
 The code is implemented in PyTorch using <a href="https://github.com/open-mmlab/mmdetection">MMdetection</a> framework (Version 2.0.0). 
@@ -98,6 +100,20 @@ Note: Our single model CDeC-Net‡ is trained on IIIT-AR-13K dataset and fine-tu
 ## Issue
 Kindly go through the various tutorails and documentation provided in [docs folder](docs). <br>
 Most of the common issues were already solved in MMdetection official repo's [Issue Page](https://github.com/open-mmlab/mmdetection/issues). We strongly suggest to go through it before raising a new issue.
+
+## Citation
+If you find this work useful for your research, please cite our paper
+```
+@misc{agarwal2020cdecnet,
+    title={CDeC-Net: Composite Deformable Cascade Network for Table Detection in Document Images},
+    author={Madhav Agarwal and Ajoy Mondal and C. V. Jawahar},
+    year={2020},
+    eprint={2008.10831},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
+
 
 ## Contact
 CDeCNet was developed by [Madhav Agarwal](https://www.github.com/mdv3101), Dr. Ajoy Mondal and [Dr. C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/). <br>
