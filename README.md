@@ -1,5 +1,7 @@
 # CDeC-Net
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cdec-net-composite-deformable-cascade-network/table-detection-on-icdar2013-1)](https://paperswithcode.com/sota/table-detection-on-icdar2013-1?p=cdec-net-composite-deformable-cascade-network)
 [![PWC](https://img.shields.io/badge/MMDetection-v2.0.0-royalblue)](https://github.com/open-mmlab/mmdetection)
+
 
 
 CDeC-Net: Composite Deformable CascadeNetwork for Table Detection in Document Images
