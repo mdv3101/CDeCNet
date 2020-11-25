@@ -15,7 +15,7 @@ CDeC-Net is an end-to-end network for detecting tables in document images. The n
 The code is implemented in PyTorch using <a href="https://github.com/open-mmlab/mmdetection">MMdetection</a> framework (Version 2.0.0). 
 
 ## Release Notes:
-Oct 10, 2020: Our paper has been accepted to ICPR 2020.
+Oct 10, 2020: Our paper has been accepted to ICPR 2020 as oral paper.
 
 ## Setup
 <b>Dependencies</b><br>
