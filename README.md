@@ -71,6 +71,12 @@ python tools/test.py configs/dcn/db_cascade_mask_rcnn_x101_fpn_dconv_c3-c5_1x_co
 ```
 Details about various training and evaluation methods can be found in [getting_started.md](docs/getting_started.md)
 
+## Demo
+To run inference on single image, use the image_demo.py file by running the following command
+```
+python demo/image_demo.py demo_image.jpg configs/dcn/db_cascade_mask_rcnn_x101_fpn_dconv_c3-c5_1x_coco.py dataset/coco/logs/latest.pth \
+    --score-thr 0.95 --output-img 'output_demo.jpg'
+```
 
 ## CDeCNet Results
 1. Comparison between CDeC-Net and state-of-the-art techniques on the existing benchmark datasets.
