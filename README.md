@@ -4,7 +4,7 @@
 
 
 
-CDeC-Net: Composite Deformable CascadeNetwork for Table Detection in Document Images
+CDeC-Net: Composite Deformable Cascade Network for Table Detection in Document Images
 
 Paper Link:
 [arXiv](https://arxiv.org/abs/2008.10831) | [Research Gate](https://www.researchgate.net/publication/343877463_CDeC-Net_Composite_Deformable_Cascade_Network_for_Table_Detection_in_Document_Images) | [CVIT, IIIT-H](http://cvit.iiit.ac.in/usodi/cdec-net.php)
