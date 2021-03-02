@@ -53,7 +53,7 @@ dataset
   | ├── val2014
   | ├── logs
 ```
-2. Create a folder 'model' in the CDeCNet and put the pre-trained model on MS-Coco into this directory. The model file can be downloaded from the [google drive](https://drive.google.com/file/d/1JXt2F5pDJmSN5C7DXVKff93ksmMMqdcB/view?usp=sharing)
+2. Create a folder 'model' in the CDeCNet and put the pre-trained model on MS-Coco into this directory. The model file can be downloaded from the [drive](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/madhav_agarwal_research_iiit_ac_in/EUUDgrZoY4ZApFOL7xiiCHMBbSP9ai0OZ-weQ94O2kBQ_A?e=dLFV6I)
 
 3. Set ```load_from= /path/of/pre-trained/model``` in [default_runtime.py](configs/_base_/default_runtime.py)
 4. To train a model on CDeC-Net, use the following commnand
@@ -83,13 +83,13 @@ python demo/image_demo.py demo_image.jpg configs/dcn/db_cascade_mask_rcnn_x101_f
 
 | Dataset    | Method                     | Precision            | Recall               | F1                   | mAP                  | Checkpoint |
 |------------|----------------------------|----------------------|----------------------|----------------------|----------------------|------------|
-|ICDAR-2013  | DeCNT <br>CDeC-Net         | 0.996 <br> **1.000** | 0.996 <br> **1.000** | 0.996 <br> **1.000** | - <br> **1.000**     | <br> [model](https://drive.google.com/file/d/1bip7l0H3Zd9NNWIRRtM-QdnDborWvftf/view?usp=sharing) |
-|ICADR-2017  | Yolov3<br>CDeC-Net         | **0.968** <br> 0.924 | **0.975**<br> 0.970  | **0.971** <br> 0.947 | - <br> **0.912**     | <br> [model](https://drive.google.com/file/d/1bbSSqp4_6YE-QqiOVsGX6_HttL2qGYeB/view?usp=sharing) |
-|ICADR -2019 | TableRadar<br>CDeC-Net     | **0.940** <br> 0.934 | 0.950 <br> **0.953** | **0.945** <br> 0.944 | - <br> **0.922**     | <br> [model](https://drive.google.com/file/d/1EgF64VgAztQ_nF9I99IM3Tq8L2BI34Mw/view?usp=sharing) |
-|UNLV        | GOD <br> CDeC-Net          | 0.910 <br> **0.925** | 0.946 <br> **0.952** | 0.928 <br> **0.938** | - <br> **0.912**     | <br> [model](https://drive.google.com/file/d/1gh5KWVmmex4raRXu_gYeVuGyo8nbdHy4/view?usp=sharing) |
-|Marmot      | DeCNT <br> CDeC-Net        | **0.946** <br> 0.930 | 0.849 <br> **0.975** | 0.895 <br> **0.952** | - <br> **0.911**     | <br> [model](https://drive.google.com/file/d/1UJbuQmIxPc7CzRR9fS4evg-aVN9cxQ3R/view?usp=sharing)|
-|TableBank   | Li et al. <br> CDeC-Net    | 0.975 <br> **0.979** | 0.987 <br> **0.995** | 0.981 <br> **0.987** | - <br> **0.976**     | <br> [model](https://drive.google.com/file/d/1CGVE5IBaGL6Ssh7dKMv8csz3omezd_HX/view?usp=sharing)|
-|PubLayNet   | M-RCNN <br> CDeC-Net       |-<br> **0.970**       |-<br> **0.988**       |-<br> **0.978**       | 0.960 <br> **0.967** | <br> [model](https://drive.google.com/file/d/1NsqIgDWwWIXIU6intibVXUq0tA5yNGAr/view?usp=sharing) |
+|ICDAR-2013  | DeCNT <br>CDeC-Net         | 0.996 <br> **1.000** | 0.996 <br> **1.000** | 0.996 <br> **1.000** | - <br> **1.000**     | <br> [model](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/madhav_agarwal_research_iiit_ac_in/EWZh5EhnvbJIr5B_ZJqeAncBSeCds15vic2dcjA4r7J0AA?e=SDiO6H) |
+|ICADR-2017  | Yolov3<br>CDeC-Net         | **0.968** <br> 0.924 | **0.975**<br> 0.970  | **0.971** <br> 0.947 | - <br> **0.912**     | <br> [model](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/madhav_agarwal_research_iiit_ac_in/Eb6UT-yRRdRMoe8fXb7Ry70BnP533QVis-TFjxcy8B6Lng?e=c2YxHI) |
+|ICADR -2019 | TableRadar<br>CDeC-Net     | **0.940** <br> 0.934 | 0.950 <br> **0.953** | **0.945** <br> 0.944 | - <br> **0.922**     | <br> [model](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/madhav_agarwal_research_iiit_ac_in/EQjdzBfcDHdBsyRmUkddqB0Bbbo9-c5NzLDJf2QKbnHzXg?e=LZRp9D) |
+|UNLV        | GOD <br> CDeC-Net          | 0.910 <br> **0.925** | 0.946 <br> **0.952** | 0.928 <br> **0.938** | - <br> **0.912**     | <br> [model](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/madhav_agarwal_research_iiit_ac_in/EcOV1s1OcaBDpj12JbdzUewBjlD33T94YHc6vihEjI_waw?e=fhcSHp) |
+|Marmot      | DeCNT <br> CDeC-Net        | **0.946** <br> 0.930 | 0.849 <br> **0.975** | 0.895 <br> **0.952** | - <br> **0.911**     | <br> [model](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/madhav_agarwal_research_iiit_ac_in/ET8d4srdXltHv0UEx8zL5HMBWM2DgKYPPpLqT6jENlD01w?e=7AeYND)|
+|TableBank   | Li et al. <br> CDeC-Net    | 0.975 <br> **0.979** | 0.987 <br> **0.995** | 0.981 <br> **0.987** | - <br> **0.976**     | <br> [model](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/madhav_agarwal_research_iiit_ac_in/EUzsiH5-jLNDmi1a6m8s3_kBvWqooTEcHG3oPbu4XjXcXA?e=9R8whb)|
+|PubLayNet   | M-RCNN <br> CDeC-Net       |-<br> **0.970**       |-<br> **0.988**       |-<br> **0.978**       | 0.960 <br> **0.967** | <br> [model](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/madhav_agarwal_research_iiit_ac_in/Ecep2xcrALNFgggUVlaEryUBBdxtdOq-AFYND71cFNOJmw?e=a8s52R) |
 
 2. Comparison between our single model CDeC-Net‡ and state-of-the-art techniques on existing benchmark datasets.
 
@@ -103,7 +103,7 @@ python demo/image_demo.py demo_image.jpg configs/dcn/db_cascade_mask_rcnn_x101_f
 |TableBank   | Li et al. <br> CDeC-Net‡    | **0.975** <br> 0.970 | 0.987 <br> **0.990** | **0.981** <br> 0.980 | - <br> **0.965**     |
 |PubLayNet   | M-RCNN <br> CDeC-Net‡       | - <br> **0.975**     | - <br> **0.993**     | - <br> **0.984**     |0.960 <br> **0.978**  |
 
-Note: Our single model CDeC-Net‡ is trained on IIIT-AR-13K dataset and fine-tuned with training set of respective datasets (if available). The base model trained on IIIT-AR-13K dataset can be downloaded from the [google drive](https://drive.google.com/file/d/1jTl-pJYJOWFvcWrPV6hH99Z7x-xO9r2f/view?usp=sharing)
+Note: Our single model CDeC-Net‡ is trained on IIIT-AR-13K dataset and fine-tuned with training set of respective datasets (if available). The base model trained on IIIT-AR-13K dataset can be downloaded from the [drive](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/madhav_agarwal_research_iiit_ac_in/ETjRlAXARK1HvGPLXRjg-b0B_XgOQvxJ0Y53Is7J6KGTyg?e=OIaNNf)
  
 ## Qualitative Results: Table Detection by CDeC-Net
 <img src="imgs/qualitative_13_19.png" height="350"/> <br>
