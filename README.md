@@ -7,7 +7,7 @@
 CDeC-Net: Composite Deformable Cascade Network for Table Detection in Document Images
 
 Paper Link:
-[arXiv](https://arxiv.org/abs/2008.10831) | [Research Gate](https://www.researchgate.net/publication/343877463_CDeC-Net_Composite_Deformable_Cascade_Network_for_Table_Detection_in_Document_Images) | [CVIT, IIIT-H](http://cvit.iiit.ac.in/usodi/cdec-net.php)
+[ieeexplore](https://ieeexplore.ieee.org/document/9411922) | [arXiv](https://arxiv.org/abs/2008.10831) | [Research Gate](https://www.researchgate.net/publication/343877463_CDeC-Net_Composite_Deformable_Cascade_Network_for_Table_Detection_in_Document_Images) | [CVIT, IIIT-H](http://cvit.iiit.ac.in/usodi/cdec-net.php)
 
 
 ## Introduction
@@ -116,13 +116,13 @@ Most of the common issues were already solved in MMdetection official repo's [Is
 ## Citation
 If you find this work useful for your research, please cite our paper
 ```
-@misc{agarwal2020cdecnet,
-    title={CDeC-Net: Composite Deformable Cascade Network for Table Detection in Document Images},
-    author={Madhav Agarwal and Ajoy Mondal and C. V. Jawahar},
-    year={2020},
-    eprint={2008.10831},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@inproceedings{agarwal2021cdec,
+  title={Cdec-net: Composite deformable cascade network for table detection in document images},
+  author={Agarwal, Madhav and Mondal, Ajoy and Jawahar, CV},
+  booktitle={2020 25th International Conference on Pattern Recognition (ICPR)},
+  pages={9491--9498},
+  year={2021},
+  organization={IEEE}
 }
 ```
 
