@@ -128,5 +128,5 @@ If you find this work useful for your research, please cite our paper
 
 
 ## Contact
-CDeCNet was developed by [Madhav Agarwal](https://www.github.com/mdv3101), Dr. Ajoy Mondal and [Dr. C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/). <br>
+CDeCNet was developed by [Madhav Agarwal](https://mdv3101.github.io/), Dr. Ajoy Mondal and [Dr. C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/). <br>
 For any query, feel free to drop a mail to [Madhav Agarwal](mailto:madhav.agarwal@research.iiit.ac.in) by explicitly mentioning 'CDeCNet' in the subject.
